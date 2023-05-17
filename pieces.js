@@ -56,9 +56,8 @@ boutonFiltrer.addEventListener("click", function () {
     console.log(piecesFiltrees)
 });
 
-//Fonction map
 const noms = pieces.map(pieces => pieces.nom);
-for ( let  i = pieces.length  -1  ;  i  >=  0;  i--) {
+for ( let  i = pieces.length  -1;  i  >=  0;  i--) {
     if ( pièces [ je ] . prix  >  35 ) {
         noms.splice(i,1);
     }
