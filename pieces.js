@@ -73,7 +73,7 @@ for (let i = 0; i < noms.length; i++) {
 }
 
 //Ajout de chaque nom à la liste
-for ( let i=0; i < noms.length ; i++){
+for ( let i=0; i < noms.length; i++){
     constnomElement = document.createElement(li);
     nomElement.innerText = noms[i];
     abordablesElements.appendChild(nomElement)
