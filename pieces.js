@@ -71,3 +71,18 @@ for (let i = 0; i < noms.length; i++) {
     nomElement.innerText = noms[i];
     abordablesElements.appendChild(nomElement)
 }
+
+//Ajout de chaque nom à la liste
+for ( let i=0; i < noms.length ; i++){
+    constnomElement = document.createElement(li);
+    nomElement.innerText = noms[i];
+    abordablesElements.appendChild(nomElement)
+}
+
+//Ajout de l'en-tête puis de la liste au bloc résultas filtres
+document.querySelector('.abordables')
+.appendChild(abordablesElements)
+
+//Code exercice
+const nomsDisponibles = pieces.map(piece=> piece.nom)
+const prixDisponibles = pieces.map(piece => piece.prix)
