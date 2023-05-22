@@ -1,2 +1,5 @@
 node_modules
 
+images/plaquettes-frein.png
+.gitignore
+index.html
